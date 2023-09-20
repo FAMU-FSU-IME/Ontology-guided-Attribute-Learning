@@ -81,18 +81,17 @@ The proposed methodology was subjected to a comparative study against three benc
 ### Steps to Reproduce Results:
 1. Download the file "3.3.5 Figure 12 Comparative study against transfer learning.zip."
 2. Extract the contents of the zip file to a directory of your choice.
-3. Inside the extracted directory, you will find a subdirectory named "attribute learning."
-4. Enter the "attribute learning" subdirectory.
-5. Inside this subdirectory, you will find the following files:
+3. Inside the extracted directory, you will find a subdirectory named "one shot learning." and "two shot learning"
+4. Additionally, within the extracted directory, you will find subdirectories named "AlexNet," "VGG," "ResNet, "attribute learning""
+9. Enter any of these subdirectories (e.g., "AlexNet").
+5. Inside each subdirectory, you will find data files for all ten defects and split files "train.tex" and "test.tex."   7. Enter the "attribute learning" subdirectory.
+6.  Inside this subdirectory, you will find the following files:
    - `res101.mat`: Data file containing features.
    - `att_splits.mat`: File containing class splits.
    - `wiki_sentences_v11.csv`: Ontology sentences.
    - `ZSL_using_Ontology_and_EA.ipynb`: Code notebook.
-6. Open the Jupyter notebook "ZSL_using_Ontology_and_EA.ipynb."
+   - Open the Jupyter notebook "ZSL_using_Ontology_and_EA.ipynb."
 7. Create a directory named "best" in the same location to store the current best attribute file.
-8. Additionally, within the extracted directory, you will find subdirectories named "AlexNet," "VGG," and "ResNet."
-9. Enter any of these subdirectories (e.g., "AlexNet").
-10. Inside each subdirectory, you will find data files for all ten defects and split files "train.tex" and "test.tex."
-11. Execute the notebook for the "attribute learning" section and for each transfer learning method (e.g., AlexNet, VGG, ResNet) to reproduce the results for the comparative study against transfer learning.
+8.Execute the notebook for the "attribute learning" section and for each transfer learning method (e.g., AlexNet, VGG, ResNet) to reproduce the results for the comparative study against transfer learning.
 
 
