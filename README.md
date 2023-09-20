@@ -92,6 +92,6 @@ The proposed methodology was subjected to a comparative study against three benc
    - `ZSL_using_Ontology_and_EA.ipynb`: Code notebook.
    - Open the Jupyter notebook "ZSL_using_Ontology_and_EA.ipynb."
 7. Create a directory named "best" in the same location to store the current best attribute file.
-8.Execute the notebook for the "attribute learning" section and for each transfer learning method (e.g., AlexNet, VGG, ResNet) to reproduce the results for the comparative study against transfer learning.
+8. Execute the notebook for the "attribute learning" section and for each transfer learning method (e.g., AlexNet, VGG, ResNet) to reproduce the results for the comparative study against transfer learning.
 
 
